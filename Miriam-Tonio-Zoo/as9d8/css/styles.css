@@ -4,12 +4,14 @@ body, html {
     font-size: 22px;
 }
 
-
-	  body, html {
+@media only screen and (min-device-width: 480px){
+	body, html {
 	    margin: 0;
 	    padding: 0;
-	    font-size: 6px;
-	}	
+	    font-size: 3px;
+	  }
+}
+	  
 
 @font-face {
 	font-family: 'CustomFont';
