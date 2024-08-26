@@ -4,7 +4,7 @@ body, html {
 }
 
 @media (max-width: 600px) {
-  font-size: 32px;
+  font-size: 2px;
 }
 
 @font-face {
@@ -14,6 +14,7 @@ body, html {
 
 .cursive-text {
 	font-family: 'CustomFont', sans-serif;
+	font-size: 22px;
 }
 
 .container {
