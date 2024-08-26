@@ -4,9 +4,9 @@
 	color: yellow;
 }
 
-@media (min-width:20px) and (max-width:1300px){
+@media only screen and (min-width:380px) and (max-width:1000px){
 	#arrr {
-		font-size: 3px;
+		font-size: 13px;
 		color: blue;
 	}
 }
