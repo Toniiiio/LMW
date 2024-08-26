@@ -1,9 +1,12 @@
 
 #arrr {
     font-size: 33px;
+	color: yellow;
 }
+
 @media (min-width:320px) and (max-width:900px){
 	#arrr {
 		font-size: 3px;
+		color: blue;
 	}
 }
