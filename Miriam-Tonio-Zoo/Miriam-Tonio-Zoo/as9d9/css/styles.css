@@ -3,20 +3,24 @@ body, html {
     padding: 0;
 }
 
+.cursive-text {
+	font-family: 'CustomFont', sans-serif;
+	  font-size: 22px;
+}
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
     }
+    .cursive-text {
+	font-size: 15px;
+     }
+
 }
 
 @font-face {
 	font-family: 'CustomFont';
 	src: url('rocket_clouds.ttf') format('truetype');
-}
-
-.cursive-text {
-	font-family: 'CustomFont', sans-serif;
-	  font-size: 15px;
 }
 
 .container {
@@ -32,13 +36,6 @@ body, html {
 .meeting_container {
 	display: flex;	
 }
-
-
-/*.container img {
-    width: 100%;
-    height: auto;
-	height: 340px; 
-}*/
 
 .logo {
     position: absolute;
