@@ -16,6 +16,17 @@ body, html {
     height: 150px;
  }
 
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: rgba(0, 0, 0, 0.5); /* Optional: für besseren Kontrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
 @media (max-width: 600px) {
 	.container {
 	   flex-direction: column;
@@ -29,6 +40,11 @@ body, html {
 	    width: 70px;
 	    height: 70px;
 	 }
+
+	.text-overlay {
+	    transform: translate(-85%, -85%);
+	}
+
 
 }
 
@@ -96,15 +112,6 @@ textarea {
     background-color: rgba(0, 0, 0, 0.3); 
 }
 
-.text-overlay {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /*background-color: rgba(0, 0, 0, 0.5); /* Optional: für besseren Kontrast */
-    padding: 20px;
-    border-radius: 10px;
-}
 
 .submit-button {
     position: absolute;
