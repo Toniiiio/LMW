@@ -8,13 +8,27 @@ body, html {
 	  font-size: 22px;
 }
 
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 150;
+    height: 150;
+ }
+
 @media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }
-    .cursive-text {
-	font-size: 15px;
-     }
+	.container {
+	   flex-direction: column;
+	}
+	
+	.cursive-text {
+	   font-size: 15px;
+	}
+	
+	.logo {
+	    width: 70;
+	    height: 70;
+	 }
 
 }
 
@@ -36,12 +50,6 @@ body, html {
 .meeting_container {
 	display: flex;	
 }
-
-.logo {
-    position: absolute;
-    top: 3%;
-    left: 5%;
- }
 
 .image-container {
   position: relative;
