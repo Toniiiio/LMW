@@ -95,7 +95,7 @@ textarea {
     position: absolute;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-65%, -65%);
     /*background-color: rgba(0, 0, 0, 0.5); /* Optional: für besseren Kontrast */
     padding: 20px;
     border-radius: 10px;
