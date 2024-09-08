@@ -93,12 +93,12 @@ textarea {
 
 .text-overlay {
     position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-65%, -65%);
-    /*background-color: rgba(0, 0, 0, 0.5); /* Optional: für besseren Kontrast */
+    top: 20%;
+    left: 60%;
+    transform: translate(-85%, -85%);
+    /*background-color: rgba(0, 0, 0, 0.5); /* Optional: für besseren Kontrast 
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 
 .submit-button {
